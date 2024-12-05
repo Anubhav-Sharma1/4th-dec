@@ -278,3 +278,20 @@ main {
         width: 20vh;  /* Further reduce the image width for very small screens */
     }
 }
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  aside {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }

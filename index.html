@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="World Health Organization">
+    <meta aname="description" content="World Health Organization">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="download.jfif">
     <title>WHO</title>
@@ -16,6 +16,13 @@
             <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">Covid 19</a>
             <a href="https://www.who.int/data/#data" target="_blank">Data</a>
         </nav>
+        <button onclick="myFunction()">Toggle dark mode</button>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
     </header>
     <main>
         <section>
